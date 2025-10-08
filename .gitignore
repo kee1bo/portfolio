@@ -50,6 +50,13 @@ coverage
 Thumbs.db
 .DS_Store
 
-# Optional: Ignore documentation files if you don't want them in repo
-# *.md
-# !README.md
+# Documentation files (keep locally, don't push to GitHub)
+*.md
+!README.md
+
+# Docker files (not needed for Netlify)
+Dockerfile
+docker-compose.yml
+.dockerignore
+nginx.conf
+server/

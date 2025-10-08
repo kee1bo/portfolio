@@ -1,0 +1,66 @@
+{
+  "name": "Neerudi Sai Vikas",
+  "title": "AI Engineer",
+  "tagline": "Building production-ready ML systems from design to deployment",
+  "bio": "Full Stack Machine Learning Engineer with expertise in LLMs, RAG systems, and end-to-end AI solutions. Currently pursuing Master's in AI and Data Science while delivering freelance ML projects across various domains.",
+  "currentRole": "Full Stack Machine Learning Engineer",
+  "affiliation": "Freelancing",
+  "currentFocus": [
+    "Large Language Models (LLMs)",
+    "Retrieval-Augmented Generation (RAG)",
+    "AI Model Fine-tuning",
+    "Production ML Systems",
+    "Docker & Deployment"
+  ],
+  "skills": [
+    "Python",
+    "PyTorch",
+    "Docker",
+    "Data Science",
+    "AI Model Fine-tuning",
+    "RAG",
+    "Vector Databases",
+    "Flask",
+    "FastAPI",
+    "Scikit-learn",
+    "Langchain",
+    "ChromaDB"
+  ],
+  "education": [
+    {
+      "degree": "Master's degree",
+      "field": "Artificial Intelligence and Data Science",
+      "institution": "JNTUH University College of Engineering Sultanpur",
+      "location": "Hyderabad, India",
+      "period": "Sep 2024 – Jul 2026",
+      "status": "In Progress"
+    },
+    {
+      "degree": "Bachelor's degree",
+      "field": "Computer Science and Engineering",
+      "institution": "Indian Institute of Technology Indore",
+      "location": "Indore, India",
+      "period": "Jul 2016 – Jul 2022",
+      "status": "Completed"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Machine Learning Engineer",
+      "company": "Freelancing",
+      "type": "Freelance Remote",
+      "period": "Jul 2022 – Present",
+      "description": "Took upon several freelancing projects and was responsible for delivering the projects from design to deployment. These projects helped me to structure problems from several domains and design, plan and implement them as machine learning, deep learning usecase.",
+      "technologies": ["Python", "PyTorch", "Flask", "Scikit-learn", "Deep Learning"]
+    }
+  ],
+  "photo": "/assets/profile.jpg",
+  "social": {
+    "github": "https://github.com/kee1bo",
+    "linkedin": "https://www.linkedin.com/in/neerudi-sai-vikas-721349226/",
+    "medium": "https://medium.com/@neerudisaivikas"
+  },
+  "email": "neerudisaivikas@gmail.com",
+  "phone": "+919440143183",
+  "website": "https://saivikas.work"
+}

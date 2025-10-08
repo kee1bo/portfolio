@@ -1,0 +1,129 @@
+.resume {
+  padding: var(--space-24) var(--space-6);
+  background-color: var(--color-white);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: var(--text-4xl);
+  font-weight: var(--font-bold);
+  text-align: center;
+  margin-bottom: var(--space-16);
+  color: var(--color-black);
+}
+
+.downloadSection {
+  text-align: center;
+  margin-bottom: var(--space-16);
+  padding: var(--space-12);
+  background-color: var(--color-gray-100);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.description {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-6);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-8);
+}
+
+.highlightCard {
+  padding: var(--space-8);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-base);
+}
+
+.highlightCard:hover {
+  border-color: var(--color-gray-400);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.highlightTitle {
+  font-size: var(--text-xl);
+  font-weight: var(--font-bold);
+  color: var(--color-black);
+  margin: 0 0 var(--space-4) 0;
+  text-align: center;
+}
+
+.highlightContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.highlightText {
+  font-size: var(--text-base);
+  font-weight: var(--font-medium);
+  color: var(--color-black);
+  margin: 0;
+  text-align: center;
+}
+
+.highlightSubtext {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin: 0;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .highlights {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding: var(--space-16) var(--space-6);
+  }
+
+  .heading {
+    font-size: var(--text-3xl);
+    margin-bottom: var(--space-12);
+  }
+
+  .downloadSection {
+    padding: var(--space-8);
+  }
+
+  .description {
+    font-size: var(--text-base);
+  }
+
+  .highlightCard {
+    padding: var(--space-6);
+  }
+}
+
+@media (max-width: 480px) {
+  .highlightTitle {
+    font-size: var(--text-lg);
+  }
+
+  .highlightText {
+    font-size: var(--text-sm);
+  }
+
+  .highlightSubtext {
+    font-size: var(--text-xs);
+  }
+}

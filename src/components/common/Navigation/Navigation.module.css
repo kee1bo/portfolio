@@ -1,0 +1,135 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+  z-index: var(--z-fixed);
+  transition: all var(--transition-base);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  gap: var(--space-8);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  font-size: var(--text-base);
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-base);
+  position: relative;
+}
+
+.menu li a:hover {
+  color: var(--color-black);
+}
+
+.menu li a.active {
+  color: var(--color-black);
+}
+
+.menu li a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--color-black);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--space-2);
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-black);
+  transition: all var(--transition-base);
+}
+
+.hamburger span.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger span.open:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger span.open:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .menu {
+    position: fixed;
+    top: 65px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-4) 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-base);
+  }
+
+  .menuOpen {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .menu li a {
+    display: block;
+    padding: var(--space-4) var(--space-6);
+    width: 100%;
+  }
+
+  .menu li a.active::after {
+    bottom: 0;
+    left: var(--space-6);
+    right: auto;
+    width: 3px;
+    height: 100%;
+  }
+}

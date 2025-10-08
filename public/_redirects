@@ -1,0 +1,7 @@
+# Netlify Redirects Configuration
+
+# SPA fallback - redirect all routes to index.html for client-side routing
+/*    /index.html   200
+
+# Optional: Redirect old URLs if you had a previous site
+# /old-path    /new-path    301

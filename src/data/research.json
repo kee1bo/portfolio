@@ -1,0 +1,21 @@
+{
+  "published": [
+    {
+      "id": "paper-1",
+      "title": "Explainable AI for Financial Trading: A Novel Approach",
+      "authors": ["Sai Vikas", "Co-Author Name"],
+      "venue": "International Conference on Machine Learning",
+      "year": 2024,
+      "summary": "A novel framework for building interpretable trading models using attention mechanisms",
+      "pdfUrl": "/assets/papers/paper1.pdf",
+      "doiUrl": "https://doi.org/10.1000/example"
+    }
+  ],
+  "working": [
+    {
+      "id": "working-1",
+      "title": "Deep Learning for Market Prediction with Uncertainty Quantification",
+      "description": "Developing probabilistic deep learning models that provide confidence intervals for market predictions"
+    }
+  ]
+}

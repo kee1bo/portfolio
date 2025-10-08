@@ -1,0 +1,112 @@
+{
+  "featured": [
+    {
+      "id": "llm-from-scratch",
+      "title": "LLM from Scratch",
+      "description": "Built a Large Language Model from scratch to produce quantifiable proof of work showcasing end-to-end ML capabilities",
+      "detailedDescription": "Implemented a complete LLM pipeline including tokenization, model architecture, training loop, and deployment. This project demonstrates deep understanding of transformer architectures and production ML systems.",
+      "techStack": [
+        "Python",
+        "PyTorch",
+        "FastAPI",
+        "Docker",
+        "Deep Learning"
+      ],
+      "metrics": "Complete design to deployment pipeline",
+      "period": "Aug 2024 – Sep 2024",
+      "githubUrl": "https://github.com/kee1bo/llm-from-scratch",
+      "demoUrl": "",
+      "imageUrl": "/assets/projects/llm.jpg",
+      "featured": true,
+      "isLive": false,
+      "youtubeUrl": "",
+      "mediumUrl": ""
+    },
+    {
+      "id": "rag-implementation",
+      "title": "RAG for LLM",
+      "description": "Developed a Retrieval-Augmented Generation pipeline to improve LLM performance for specified tasks",
+      "detailedDescription": "Built a complete RAG system using Langchain and ChromaDB for vector storage. Implemented efficient retrieval mechanisms and context injection to enhance LLM responses based on user needs and search queries.",
+      "techStack": [
+        "Python",
+        "Langchain",
+        "ChromaDB",
+        "RAG",
+        "Vector Databases"
+      ],
+      "metrics": "Improved task-specific performance",
+      "period": "Sep 2024 – Oct 2024",
+      "githubUrl": "https://github.com/kee1bo/rag-llm",
+      "demoUrl": "",
+      "imageUrl": "/assets/projects/rag.jpg",
+      "featured": true,
+      "isLive": false,
+      "youtubeUrl": "",
+      "mediumUrl": ""
+    },
+    {
+      "id": "ml-trading-system",
+      "title": "ML Trading System",
+      "description": "Production-ready machine learning system for financial trading with real-time predictions",
+      "detailedDescription": "Designed and deployed a complete ML trading system with data pipelines, model training, backtesting framework, and real-time inference API. Includes risk management and portfolio optimization.",
+      "techStack": [
+        "Python",
+        "Scikit-learn",
+        "Flask",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "metrics": "Real-time trading signals",
+      "period": "Jun 2024 – Aug 2024",
+      "githubUrl": "",
+      "demoUrl": "",
+      "imageUrl": "/assets/projects/trading.jpg",
+      "featured": true,
+      "isLive": false,
+      "youtubeUrl": "",
+      "mediumUrl": ""
+    }
+  ],
+  "all": [
+    {
+      "id": "sentiment-analysis",
+      "title": "Sentiment Analysis API",
+      "description": "REST API for real-time sentiment analysis using fine-tuned BERT models",
+      "detailedDescription": "Built a production-grade sentiment analysis API with custom fine-tuned BERT models. Includes preprocessing pipelines, model serving with FastAPI, and Docker deployment. Handles multiple languages and domains.",
+      "techStack": [
+        "Python",
+        "Transformers",
+        "FastAPI",
+        "Docker"
+      ],
+      "metrics": "95% accuracy on test set",
+      "githubUrl": "https://github.com/kee1bo/sentiment-api",
+      "demoUrl": "",
+      "imageUrl": "/assets/projects/senti.png",
+      "featured": false,
+      "isLive": false,
+      "youtubeUrl": "https://youtube.com/watch?v=example",
+      "mediumUrl": "https://medium.com/@neerudisaivikas/sentiment-analysis"
+    },
+    {
+      "id": "image-classification",
+      "title": "Custom Image Classifier",
+      "description": "Transfer learning based image classification system for custom datasets",
+      "detailedDescription": "Implemented transfer learning using ResNet and EfficientNet for custom image classification tasks. Includes data augmentation, training pipeline, and model optimization techniques.",
+      "techStack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Flask"
+      ],
+      "metrics": "92% validation accuracy",
+      "githubUrl": "https://github.com/kee1bo/image-classifier",
+      "demoUrl": "",
+      "imageUrl": "/assets/projects/image.png",
+      "featured": false,
+      "isLive": false,
+      "youtubeUrl": "",
+      "mediumUrl": ""
+    }
+  ]
+}

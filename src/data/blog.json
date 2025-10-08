@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": "post-1",
+      "slug": "understanding-xai",
+      "title": "Understanding Explainable AI: Why It Matters",
+      "abstract": "Explainable AI is crucial for building trust in machine learning systems. This post explores the key concepts, techniques, and real-world applications of XAI in modern ML systems.",
+      "date": "2024-01-15",
+      "categories": ["ML", "XAI"],
+      "readTime": 8,
+      "content": "<h2>Introduction</h2><p>Explainable AI (XAI) has become increasingly important as machine learning models are deployed in critical decision-making systems. While these models can achieve impressive accuracy, their 'black box' nature often makes it difficult to understand how they arrive at their predictions.</p><h2>Why XAI Matters</h2><p>There are several key reasons why explainability is crucial:</p><ul><li><strong>Trust:</strong> Users need to understand why a model made a particular decision</li><li><strong>Debugging:</strong> Developers need to identify and fix model errors</li><li><strong>Compliance:</strong> Many industries require transparent decision-making processes</li><li><strong>Fairness:</strong> We need to ensure models aren't making biased decisions</li></ul><h2>Key Techniques</h2><p>Several techniques have emerged for making ML models more interpretable, including LIME, SHAP, and attention mechanisms. Each has its strengths and use cases.</p><h2>Conclusion</h2><p>As AI systems become more prevalent, the need for explainability will only grow. Building interpretable models isn't just good practice—it's essential for responsible AI deployment.</p>"
+    },
+    {
+      "id": "post-2",
+      "slug": "ml-trading-models",
+      "title": "Building Robust ML Models for Financial Trading",
+      "abstract": "A comprehensive guide to developing machine learning models for financial markets, covering data preprocessing, feature engineering, and model validation strategies.",
+      "date": "2024-02-20",
+      "categories": ["ML", "Trading Models"],
+      "readTime": 12,
+      "content": "<h2>The Challenge of Financial ML</h2><p>Building machine learning models for financial trading presents unique challenges. Markets are non-stationary, noisy, and influenced by countless factors. Traditional ML approaches often fail in this domain.</p><h2>Data Preprocessing</h2><p>Quality data is the foundation of any successful trading model. Key considerations include:</p><ul><li>Handling missing data and outliers</li><li>Dealing with look-ahead bias</li><li>Proper train/test splitting for time series</li><li>Feature scaling and normalization</li></ul><h2>Feature Engineering</h2><p>The right features can make or break a trading model. Technical indicators, market microstructure features, and sentiment analysis all play important roles.</p><h2>Model Validation</h2><p>Standard cross-validation doesn't work for time series. We need specialized techniques like walk-forward analysis and proper backtesting frameworks.</p><h2>Risk Management</h2><p>Even the best model needs proper risk management. Position sizing, stop losses, and portfolio diversification are crucial for long-term success.</p>"
+    }
+  ],
+  "categories": ["ML", "XAI", "Trading Models", "Research", "Deep Learning"]
+}

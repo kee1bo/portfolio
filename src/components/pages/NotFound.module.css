@@ -1,0 +1,49 @@
+.notFound {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-16) var(--space-6);
+  background-color: var(--color-white);
+}
+
+.content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 8rem;
+  font-weight: var(--font-bold);
+  color: var(--color-black);
+  margin: 0 0 var(--space-4) 0;
+  line-height: 1;
+}
+
+.subtitle {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-semibold);
+  color: var(--color-black);
+  margin: 0 0 var(--space-4) 0;
+}
+
+.description {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--space-8) 0;
+  line-height: var(--leading-relaxed);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 6rem;
+  }
+
+  .subtitle {
+    font-size: var(--text-2xl);
+  }
+
+  .description {
+    font-size: var(--text-base);
+  }
+}

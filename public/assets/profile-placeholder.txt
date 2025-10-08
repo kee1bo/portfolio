@@ -1,0 +1,16 @@
+PROFILE IMAGE INSTRUCTIONS
+========================
+
+To display your profile photo:
+
+1. Add your profile image to this directory as: profile.jpg
+   - Recommended size: 400x400 pixels or larger (square aspect ratio)
+   - Supported formats: .jpg, .jpeg, .png, .webp
+   - Keep file size under 500KB for optimal loading
+
+2. The image path in src/data/profile.json is already configured as:
+   "photo": "/assets/profile.jpg"
+
+3. Once you add the image, it will automatically appear in the About section
+
+Current Status: No profile image found - using placeholder
